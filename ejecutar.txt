@@ -1,0 +1,16 @@
+python -m streamlit run app.py
+
+cd C:\Users\jjdua\OneDrive\Documentos\BusinesValidationModel1
+
+python -m streamlit run app4.py
+
+KeyError: 'nivel_riesgo'
+
+File "C:\Users\jjdua\OneDrive\Documentos\BusinesValidationModel1\app4.py", line 1580, in <module>
+    negocio_id_guardado = guardar_negocio(
+        resultado,
+        resultado_riesgo["riesgos"]
+    )
+File "C:\Users\jjdua\OneDrive\Documentos\BusinesValidationModel1\database.py", line 176, in guardar_negocio
+    resultado["nivel_riesgo"],
+    ~~~~~~~~~^^^^^^^^^^^^^^^^
